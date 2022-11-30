@@ -1,0 +1,20 @@
+{
+  "name": "system-parkir",
+  "version": "1.0.0",
+  "description": "Model dan skenario system parkir",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "frans kbarek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
