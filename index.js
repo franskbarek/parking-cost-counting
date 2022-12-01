@@ -1,10 +1,12 @@
 import express from "express";
+import dotenv from "dotenv";
+import parkingAreaData from "./routes/index.js";
 
+dotenv.config();
 const app = express();
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-  res.send("api running");
-});
+app.use("/api/parkingarea", parkingAreaData);
 
-app.listen(5000, () => console.log("Conected"));
+app.listen(5000, () => console.log("Connected to backend"));
