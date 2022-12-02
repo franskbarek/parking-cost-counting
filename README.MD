@@ -34,5 +34,5 @@ This code to codereviewer.
 
 #### Unit testing on path folder
 
-- [testing with Jest](https://github.com)
-- [testing with postman](https://github.com)
+- [testing with Jest](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
+- [testing with postman](https://github.com/franskbarek/parking-cost-counting/tree/main/test/postman.json)
