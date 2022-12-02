@@ -10,6 +10,7 @@ This code for codereviewer.
 - jest
 - pg-npm
 - PostgreSQL
+- Elephantsql(cloud db)
 
 ## 📒 Guide
 
