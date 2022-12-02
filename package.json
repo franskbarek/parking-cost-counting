@@ -1,18 +1,15 @@
 {
-  "name": "parking-area-system",
+  "name": "parkingarea-system",
   "version": "1.0.0",
-  "description": "Parking area design models and scenario",
+  "description": "Design models and scenario cost count system parking",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
     "test": "jest"
   },
   "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    },
     "verbose": true
   },
   "author": "frans kbarek",
