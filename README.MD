@@ -1,6 +1,6 @@
-# Design models and scenario (parking cost counting)
+# Design models and scenario (parking cost counting) 🅿️
 
-This code to codereviewer.
+This code for codereviewer.
 
 ## Technologies Used
 
@@ -25,7 +25,7 @@ This code to codereviewer.
   }
   there have two vihacle type, 1 to car and 2 motorCycle.
 
-- You can data searching with filter method by entering the query below:
+- You can searching data with filter method by entering the query below:
   idVehicle : filter by vehicle type
   getOutCost : filter by minimum cost
   getInCost : filter by maximum cost
@@ -34,5 +34,5 @@ This code to codereviewer.
 
 #### Unit testing on path folder
 
-- [testing with Jest](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
-- [testing with postman](https://github.com/franskbarek/parking-cost-counting/tree/main/test/postman.json)
+- [Testing with jest](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
+- [Postman generated to collection.json](https://github.com/franskbarek/parking-cost-counting/tree/main/test/Postman.json)
