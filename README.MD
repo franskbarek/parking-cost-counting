@@ -8,6 +8,7 @@ This code for codereviewer.
 - node.js
 - express.js
 - jest
+- postman
 - pg-npm
 - PostgreSQL
 - Elephantsql (cloud db)
