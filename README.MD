@@ -1,8 +1,8 @@
-# Design models and scenario (parking cost counting) 🅿️
+# Design models and scenario (parking cost counting)
 
 This code for codereviewer.
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 - yarn
 - node.js
@@ -11,7 +11,7 @@ This code for codereviewer.
 - pg-npm
 - PostgreSQL
 
-## Guide
+## 📒 Guide
 
 - Using Method GET /api/ : Get all data
 
@@ -32,7 +32,7 @@ This code for codereviewer.
   startGetInTime : time getInTime / maximum getOutTime
   endGetOutTime : time maximum / minimum getOutTime
 
-#### Unit testing on path folder
+#### 🛠️ Unit testing on path folder
 
 - [Testing with jest](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
-- [Postman generated to collection.json](https://github.com/franskbarek/parking-cost-counting/tree/main/test/Postman.json)
+- [Postman generated to collection.json](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
