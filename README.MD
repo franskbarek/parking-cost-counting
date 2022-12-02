@@ -40,4 +40,60 @@ This code for codereviewer.
 
 - [Testing with jest](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
 - [Postman generated to collection.json](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
-  :[Download postman collection ⬇️](https://www.udrop.com/7BVB)
+
+#### Postman base code:
+
+```
+{
+  "info": {
+    "_postman_id": "1ac6efca-211d-4172-8d0f-84be1a19d61d",
+    "name": "Parking-Area-Scenario",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "17475098"
+  },
+  "item": [
+    {
+      "name": "get all",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["api"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "add data",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"idVehicle\": 2,\n    \"getInTime\": \"2022-11-11T08:00:32.000Z\",\n    \"getOutTime\": \"2022-11-11T09:00:37.000Z\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/add",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["api", "add"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
+
+```
+
+[Download postman collection ⬇️](https://www.udrop.com/7BVB)
