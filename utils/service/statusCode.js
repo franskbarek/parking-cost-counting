@@ -1,4 +1,3 @@
-//Fungsi untuk mempermudah penulisan response
 const response = (res, result, status, message, pagination) => {
   const resultPrint = {};
   let statusName = "";
