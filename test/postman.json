@@ -51,7 +51,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:5000/api?getInCost=10000&getOutCost=30000&idVehicle=1&startEntryTime=2020-11-07T09:05:05.000Z&endEntryTime=2020-11-07T10:05:05.000Z",
+          "raw": "http://localhost:5000/api?getInCost=10000&getOutCost=30000&idVehicle=1&startgetInTime=2020-11-07T09:05:05.000Z&endgetOutTime=2020-11-07T10:05:05.000Z",
           "protocol": "http",
           "host": ["localhost"],
           "port": "5000",
@@ -70,11 +70,11 @@
               "value": "1"
             },
             {
-              "key": "startEntryTime",
+              "key": "startgetInTime",
               "value": "2020-11-07T09:05:05.000Z"
             },
             {
-              "key": "endEntryTime",
+              "key": "endgetOutTime",
               "value": "2020-11-07T10:05:05.000Z"
             }
           ]
