@@ -39,7 +39,7 @@ Dear codereviewer.
 ###### 2. Dengan menggunakan Postman tool :
 
 - Get all data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api/_
-- Insert data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api/adding_
+- Insert data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api/add_
 - Filter data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api?[params]_ `contoh: idVehicle=1`
 - Berikut contoh format dari hasil `capture gambar` untuk melakukan `Get all data`, `Insert data` dan `Filter data`:
 
