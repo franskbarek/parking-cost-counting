@@ -71,11 +71,6 @@ _Salin format `json` dibawah ini jika dibutuhkan :_
   > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime** (_contoh: 2020-11-07T09:05:05.000Z_)
   > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime** (_contoh: 2020-11-07T10:05:05.000Z_)
 
-### 🛠️ Unit testing terdapat pada path folder, berikut tautan link :
-
-- [Testing with jest](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
-- [Postman generated to collection.json](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
-
 ###### Postman Basecode:
 
 ```
@@ -181,4 +176,20 @@ _Salin format `json` dibawah ini jika dibutuhkan :_
 
 ```
 
-[Download postman collection ⬇️](https://www.udrop.com/7BW3)
+###### Berikut tautan link postman pada dir :
+
+- [Lokasi dir `/test/postman.json`](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
+- [Download postman `collection.json` ⬇️](https://www.udrop.com/7BW3)
+
+## 🛠️ Unit Testing
+
+#### Melakukan testing skenario fungsi pada aplikasi
+
+- Untuk menjalankannya, anda dapat mengetikan perintah **`npm run test`** atau jika menggunkan yarn ketikan **`yarn test`** di terminal pada posisi direktori root aplikasi tersebut
+- Berikut `capture gambar` hasil testing :
+
+![Capture get all data](/utils/assets/images/parking-area-test.png)
+
+###### Berikut tautan link tes pada dir :
+
+- [Lokasi direktori `/test`](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
