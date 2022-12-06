@@ -2,7 +2,7 @@
 
 Dear codereviewer.
 
-## ⚙️ Teknologi yang digunakan :
+## ⚙️ Teknologi yang digunakan
 
 - yarn
 - node.js
@@ -16,7 +16,7 @@ Dear codereviewer.
 
 ## 📒 Petunjuk Untuk menjalankan Aplikasi
 
-#### Inisialisasi seluruh `node module` sebelum menjalankan aplikasi
+#### Inisialisasi seluruh `node module` pakages sebelum menjalankan aplikasi
 
 - Pertama-tama ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** pada terminal pada posisi direktori aplikasi
 - Kemudian jalankan aplikasi dengan mengetikan perintah **`npm run dev`** atau **`yarn dev`**
@@ -25,13 +25,13 @@ Dear codereviewer.
 
 ###### 1. Dengan user interface atau browser :
 
-- Get all data dengan cara menginputkan url **http://localhost:5000/web/**
-- Insert data dengan cara menginputkan url **http://localhost:5000/web/form**
+- Get all data dengan cara menginputkan url _http://localhost:5000/web/_
+- Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
 
 ###### 2. Dengan Postman tool :
 
-- Get all data menggunakan method **`GET` http://localhost:5000/api/**
-- Insert data menggunakan method **`POST` http://localhost:5000/api/adding**
+- Get all data menggunakan method **`GET`** _http://localhost:5000/api/_
+- Insert data menggunakan method **`POST`** _http://localhost:5000/api/adding_
 - Berikut contoh format untuk implement hal tersebut :
 
 ```
@@ -42,7 +42,7 @@ Dear codereviewer.
    }
 ```
 
-_Ada dua tipe kendaraan: vihacle type 1 to mobil dan 2 untuk motor._
+> _Ada dua tipe kendaraan: vihacle type 1 to mobil dan 2 untuk motor._
 
 - Anda dapat melakukan pencarian dengan fitur filter pada aplikasi, dengan memasukan _keyword_ berikut :
 
