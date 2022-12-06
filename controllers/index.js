@@ -54,7 +54,7 @@ const controllers = {
       const totalCost = calculateCost(idVehicle, roundedTime);
       const result = await insert(idVehicle, getInTime, getOutTime, totalCost);
 
-      return statusName.response(res, { rowCount: result.rowCount, idVehicle, getInTime, getOutTime, cost }, 201, "Data created successfully!");
+      return statusName.response(res, { rowCount: result.rowCount, idVehicle, getInTime, getOutTime, totalCost }, 201, "Data created successfully!");
     } catch (error) {
       console.log(error);
       return statusName.response(res, error.rows, 500, "Internal server error!");
