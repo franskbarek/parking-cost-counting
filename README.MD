@@ -56,8 +56,8 @@ Dear codereviewer.
   > - Pencarian berdasarkan jenis kendaraan : **idVehicle** (contoh -> 1)
   > - Pencarian berdasarkan biaya minimum : **getOutCost** (contoh -> 5000)
   > - Pencarian berdasarkan biaya maksimum : **getInCost** (contoh -> 80000)
-  > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime**
-  > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime**
+  > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime** (contoh -> 2020-11-07T09:05:05.000Z)
+  > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime** (contoh -> 2020-11-07T10:05:05.000Z)
 
 ### 🛠️ Unit testing terdapat pada path folder, berikut tautan link :
 
