@@ -27,7 +27,7 @@ Dear codereviewer.
 
 - Get all data dengan cara menginputkan url _http://localhost:5000/web/_
 - Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
-- Berikut contoh dari hasil `capture gambar` untuk melakukan `Get all data` & `Insert data` :
+- Berikut contoh dari hasil `capture gambar` untuk melakukan `Get all data` dan `Insert data` :
 
 ![Capture get all data](/utils/assets/images/get%20all%20data.png)
 
@@ -39,8 +39,8 @@ Dear codereviewer.
 
 - Get all data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api/_
 - Insert data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api/adding_
-- Filter data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api?[params -> contoh idVehicle=1]_
-- Berikut contoh format dari hasil `capture gambar` untuk melakukan `Get all data`, `Insert data` & `Filter data`:
+- Filter data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api?[params] contoh >> idVehicle=1_
+- Berikut contoh format dari hasil `capture gambar` untuk melakukan `Get all data`, `Insert data` dan `Filter data`:
 
 ![Capture get all data.](</utils/assets/images/get%20all%20data(postman).png>)
 
@@ -48,27 +48,27 @@ Dear codereviewer.
 
 ![Capture filter data.](</utils/assets/images/filter%20data(postman).png>)
 
-_Salin format kode dibawah ini jika dibutuhkan :_
+_Salin format `json` dibawah ini jika dibutuhkan :_
 
 ```
    {
    "idVehicle": number(pilih salah satu, 1 atau 2),
-    "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z", __(contoh -> 2022-12-07T08:00:32.000Z)__
-   "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"  __(contoh -> 2022-12-07T09:00:37.000Z)__
+    "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z",
+   "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"
    }
 ```
 
-> _Ada dua tipe kendaraan: vihacle type 1 to mobil dan 2 untuk motor._
+> _Ada dua tipe kendaraan: vihacle type 1 untuk mobil dan 2 untuk motor._
 
 ---
 
 - Anda dapat melakukan pencarian dengan fitur filter pada aplikasi, dengan memasukan _keyword_ berikut :
 
-  > - Pencarian berdasarkan jenis kendaraan : **idVehicle** (contoh -> 1)
-  > - Pencarian berdasarkan biaya minimum : **getOutCost** (contoh -> 5000)
-  > - Pencarian berdasarkan biaya maksimum : **getInCost** (contoh -> 80000)
-  > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime** (contoh -> 2020-11-07T09:05:05.000Z)
-  > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime** (contoh -> 2020-11-07T10:05:05.000Z)
+  > - Pencarian berdasarkan jenis kendaraan : **idVehicle** (contoh >> 1)
+  > - Pencarian berdasarkan biaya minimum : **getOutCost** (contoh >> 5000)
+  > - Pencarian berdasarkan biaya maksimum : **getInCost** (contoh >> 80000)
+  > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime** (contoh >> 2020-11-07T09:05:05.000Z)
+  > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime** (contoh >> 2020-11-07T10:05:05.000Z)
 
 ### 🛠️ Unit testing terdapat pada path folder, berikut tautan link :
 
