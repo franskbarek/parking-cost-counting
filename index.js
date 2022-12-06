@@ -22,8 +22,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api", parkingAreaRouter);
-app.use("/api", apiRouter);
+app.use("/api/view", parkingAreaRouter);
+app.use("/api/", apiRouter);
 app.use("/web", parkingAreaRouter);
 
 app.listen(5000, () => console.log("💐🌻🌿 Connected 🌹🦋🌴🌸"));

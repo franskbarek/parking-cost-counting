@@ -29,9 +29,9 @@ Dear codereviewer.
 - Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
 - Berikut contoh dari hasil `capture gambar` untuk melakukan `Get all data` & `Insert data` :
 
-![Capture get all data.](/utils/assets/images/get%20all%20data.png)
+![Capture get all data](/utils/assets/images/get%20all%20data.png)
 
-![Capture get all data.](/utils/assets/images/insert%20data.png)
+![Capture insert data](/utils/assets/images/insert%20data.png)
 
 ---
 
@@ -39,13 +39,22 @@ Dear codereviewer.
 
 - Get all data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api/_
 - Insert data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api/adding_
-- Berikut contoh format untuk melakukan `Insert data` :
+- Filter data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api?[params -> contoh idVehicle=1]_
+- Berikut contoh format dari hasil `capture gambar` untuk melakukan `Get all data`, `Insert data` & `Filter data`:
+
+![Capture get all data.](</utils/assets/images/get%20all%20data(postman).png>)
+
+![Capture insert data.](</utils/assets/images/insert%20data(postman).png>)
+
+![Capture filter data.](</utils/assets/images/filter%20data(postman).png>)
+
+---
 
 ```
    {
    "idVehicle": number(pilih salah satu, 1 atau 2),
-    "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z",
-   "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"
+    "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z", __(contoh -> 2022-12-07T08:00:32.000Z)__
+   "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"  __(contoh -> 2022-12-07T09:00:37.000Z)__
    }
 ```
 
