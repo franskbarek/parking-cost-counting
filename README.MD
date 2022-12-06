@@ -21,9 +21,7 @@ Dear codereviewer.
 - Pertama-tama ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** di terminal pada posisi direktori root aplikasi tersebut
 - Langkah selanjutnya jalankan aplikasi dengan mengetikan perintah **`npm run dev`** atau **`yarn dev`**
 
-#### Untuk mengoperasikan dan menampilkan data pada aplikasi ada banyak cara sebenarnya,
-
-namun saya akan menyarankan 2 opsi saja
+#### Untuk mengoperasikan dan menampilkan data pada aplikasi ada banyak cara sebenarnya, namun saya akan menyarankan 2 opsi saja
 
 ###### 1. Dengan menggunakan Browser :
 
@@ -34,6 +32,8 @@ namun saya akan menyarankan 2 opsi saja
 ![Capture get all data.](/utils/assets/images/get%20all%20data.png)
 
 ![Capture get all data.](/utils/assets/images/insert%20data.png)
+
+(\_\_\_)
 
 ###### 2. Dengan menggunakan Postman tool :
 
