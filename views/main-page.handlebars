@@ -1,0 +1,32 @@
+<h1>List</h1>
+
+<button type="button" onclick="window.location = '/web/form'">Tambah Data</button><br /><br />
+
+<table border="solid">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>ID</th>
+      <th>Vehicle Type</th>
+      <th>Date-In</th>
+      <th>Time-In</th>
+      <th>Date-Out</th>
+      <th>Time-Out</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each data.rows}}
+      <tr>
+        <td>{{this.no}}</td>
+        <td>{{this.id}}</td>
+        <td>{{this.vehicle_type}}</td>
+        <td>{{this.date_in}}</td>
+        <td>{{this.time_in}}</td>
+        <td>{{this.date_out}}</td>
+        <td>{{this.time_out}}</td>
+        <td>{{this.cost}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

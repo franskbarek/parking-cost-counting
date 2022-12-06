@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1670325061999" clover="3.2.0">
+  <project timestamp="1670325061999" name="All files">
+    <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="9" methods="2" coveredmethods="2" elements="36" coveredelements="35" complexity="0" loc="24" ncloc="24" packages="2" files="2" classes="2"/>
+    <package name="controllers">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="sum.js" path="/home/frans/Downloads/manythink/system-parkir/controllers/sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils.service">
+      <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <file name="counterCost.js" path="/home/frans/Downloads/manythink/system-parkir/utils/service/counterCost.js">
+        <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="5" count="18" type="stmt"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="9" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="12" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="18" count="18" type="stmt"/>
+        <line num="19" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="25" count="18" type="stmt"/>
+        <line num="26" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="31" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="10" type="stmt"/>
+        <line num="35" count="18" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
