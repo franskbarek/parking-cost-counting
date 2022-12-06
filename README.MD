@@ -181,7 +181,7 @@ _Salin format `json` dibawah ini jika dibutuhkan :_
 [**`/test/postman.json`**](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
 [**`Download postman.json`** ⬇️](https://www.udrop.com/7BW3)
 
-## 🛠️ Jest Unit Testing
+## ⚔️ Jest Unit Testing
 
 #### Tool ini memiliki tugas dan manfaat sebagai coverage atau validator untuk memastikan skenario seluruh fungsi pada aplikasi berjalan dengan semestinya
 
