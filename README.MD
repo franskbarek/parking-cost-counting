@@ -14,24 +14,24 @@ Dear codereviewer.
 - postgreSQL
 - elephantsql (cloud db)
 
-## 📒 Petunjuk untuk menjalankan aplikasi
+## 📒 Petunjuk Untuk menjalankan Aplikasi
 
 #### Inisialisasi seluruh `node module` sebelum menjalankan aplikasi
 
-- Pertama-tama ketikan perintah `npm install` atau jika menggunkan yarn ketikan `yarn` pada terminal pada posisi dir aplikasi
-- Kemudian jalankan aplikasi dengan mengetikan perintah `npm run dev` atau `yarn dev`
+- Pertama-tama ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** pada terminal pada posisi direktori aplikasi
+- Kemudian jalankan aplikasi dengan mengetikan perintah **`npm run dev`** atau **`yarn dev`**
 
 #### Ada 2 opsi untuk menjalankan dan menampilkan aplikasi
 
 ###### 1. Dengan user interface atau browser :
 
-- Get all data localhost:5000/web/
-- Insert data localhost:5000/web/form
+- Get all data dengan cara menginputkan url **http://localhost:5000/web/**
+- Insert data dengan cara menginputkan url **http://localhost:5000/web/form**
 
 ###### 2. Dengan Postman tool :
 
-- Get all data menggunakan method **`GET` localhost:5000/api/**
-- Insert data menggunakan method **`POST` localhost:5000/api/adding**
+- Get all data menggunakan method **`GET` http://localhost:5000/api/**
+- Insert data menggunakan method **`POST` http://localhost:5000/api/adding**
 - Berikut contoh format untuk implement hal tersebut :
 
 ```
@@ -40,11 +40,11 @@ Dear codereviewer.
     "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z",
    "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"
    }
-
-   *Ada dua tipe kendaraan:  vihacle type 1 to mobil dan 2 untuk motor.*
 ```
 
-- You can searching data with filter method by entering the query below :
+_Ada dua tipe kendaraan: vihacle type 1 to mobil dan 2 untuk motor._
+
+- Anda dapat melakukan pencarian dengan fitur filter pada aplikasi, dengan memasukan _keyword_ berikut :
 
   > - Pencarian berdasarkan jenis kendaraan : **idVehicle** (contoh -> 1)
   > - Pencarian berdasarkan biaya minimum : **getOutCost** (contoh -> 5000)
@@ -57,7 +57,7 @@ Dear codereviewer.
 - [Testing with jest](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
 - [Postman generated to collection.json](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
 
-###### Postman base code:
+###### Postman Basecode:
 
 ```
 {
