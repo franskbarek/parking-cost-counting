@@ -29,9 +29,9 @@ Dear codereviewer.
 - Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
 - Berikut contoh dari hasil `capture gambar` untuk melakukan `Get all data` dan `Insert data` :
 
-![Capture get all data](/utils/assets/images/get%20all%20data.png)
+[Capture get all data](/utils/assets/images/get%20all%20data.png)
 
-![Capture insert data](/utils/assets/images/insert%20data.png)
+[Capture insert data](/utils/assets/images/insert%20data.png)
 
 ---
 
@@ -39,14 +39,14 @@ Dear codereviewer.
 
 - Get all data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api/_
 - Insert data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api/adding_
-- Filter data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api?[params] contoh >> idVehicle=1_
+- Filter data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api?[params]_ `contoh: idVehicle=1`
 - Berikut contoh format dari hasil `capture gambar` untuk melakukan `Get all data`, `Insert data` dan `Filter data`:
 
-![Capture get all data.](</utils/assets/images/get%20all%20data(postman).png>)
+[Capture get all data.](</utils/assets/images/get%20all%20data(postman).png>)
 
-![Capture insert data.](</utils/assets/images/insert%20data(postman).png>)
+[Capture insert data.](</utils/assets/images/insert%20data(postman).png>)
 
-![Capture filter data.](</utils/assets/images/filter%20data(postman).png>)
+[Capture filter data.](</utils/assets/images/filter%20data(postman).png>)
 
 _Salin format `json` dibawah ini jika dibutuhkan :_
 
@@ -64,11 +64,11 @@ _Salin format `json` dibawah ini jika dibutuhkan :_
 
 - Anda dapat melakukan pencarian dengan fitur filter pada aplikasi, dengan memasukan _keyword_ berikut :
 
-  > - Pencarian berdasarkan jenis kendaraan : **idVehicle** (contoh >> 1)
-  > - Pencarian berdasarkan biaya minimum : **getOutCost** (contoh >> 5000)
-  > - Pencarian berdasarkan biaya maksimum : **getInCost** (contoh >> 80000)
-  > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime** (contoh >> 2020-11-07T09:05:05.000Z)
-  > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime** (contoh >> 2020-11-07T10:05:05.000Z)
+  > - Pencarian berdasarkan jenis kendaraan : **idVehicle** (_contoh: 1_)
+  > - Pencarian berdasarkan biaya minimum : **getOutCost** (_contoh: 5000_)
+  > - Pencarian berdasarkan biaya maksimum : **getInCost** (_contoh: 80000_)
+  > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime** (_contoh: 2020-11-07T09:05:05.000Z_)
+  > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime** (_contoh: 2020-11-07T10:05:05.000Z_)
 
 ### 🛠️ Unit testing terdapat pada path folder, berikut tautan link :
 
