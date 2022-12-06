@@ -29,9 +29,9 @@ Dear codereviewer.
 - Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
 - Berikut contoh dari hasil `capture gambar` untuk melakukan `Get all data` dan `Insert data` :
 
-[Capture get all data](/utils/assets/images/get%20all%20data.png)
+![Capture get all data](/utils/assets/images/get%20all%20data.png)
 
-[Capture insert data](/utils/assets/images/insert%20data.png)
+![Capture insert data](/utils/assets/images/insert%20data.png)
 
 ---
 
@@ -42,11 +42,11 @@ Dear codereviewer.
 - Filter data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api?[params]_ `contoh: idVehicle=1`
 - Berikut contoh format dari hasil `capture gambar` untuk melakukan `Get all data`, `Insert data` dan `Filter data`:
 
-[Capture get all data.](</utils/assets/images/get%20all%20data(postman).png>)
+![Capture get all data.](</utils/assets/images/get%20all%20data(postman).png>)
 
-[Capture insert data.](</utils/assets/images/insert%20data(postman).png>)
+![Capture insert data.](</utils/assets/images/insert%20data(postman).png>)
 
-[Capture filter data.](</utils/assets/images/filter%20data(postman).png>)
+![Capture filter data.](</utils/assets/images/filter%20data(postman).png>)
 
 _Salin format `json` dibawah ini jika dibutuhkan :_
 
