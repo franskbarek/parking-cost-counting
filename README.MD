@@ -16,19 +16,20 @@ Dear codereviewer.
 
 ## 📒 Petunjuk Untuk menjalankan Aplikasi
 
-#### Inisialisasi seluruh `node module` pakages sebelum menjalankan aplikasi
+#### Install seluruh node modules yang terdapat pada `package.json` sebelum menjalankan aplikasi
 
-- Pertama-tama yang harus dilakukan ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** di terminal pada posisi direktori root aplikasi tersebut
+- Pertama-tama ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** di terminal pada posisi direktori root aplikasi tersebut
 - Langkah selanjutnya jalankan aplikasi dengan mengetikan perintah **`npm run dev`** atau **`yarn dev`**
 
-#### Ada 2 opsi untuk mengoperasikan dan menampilkan data pada aplikasi
+#### Untuk mengoperasikan dan menampilkan data pada aplikasi ada Banyak cara sebenarnya, namun saya akan menyarankan 2 opsi saja
 
 ###### 1. Dengan menggunakan Browser :
 
 - Get all data dengan cara menginputkan url _http://localhost:5000/web/_
 - Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
-- Berikut contoh format untuk melakukan `Get all data` & `Insert data` :
-  **Masukan gambar kesini**
+- Berikut contoh dari hasil `capture gambar` untuk melakukan `Get all data` & `Insert data` :
+  ![Get all data](/utils/assets/images/get%20all%20data.png)
+  ![Insert data](/utils/assets/images/insert%20data.png)
 
 ###### 2. Dengan menggunakan Postman tool :
 
