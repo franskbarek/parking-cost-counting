@@ -176,20 +176,20 @@ _Salin format `json` dibawah ini jika dibutuhkan :_
 
 ```
 
-###### Berikut tautan link postman pada dir :
+###### Tautan link lokasi direktori dan download file `postman.json` :
 
-- [Lokasi dir `/test/postman.json`](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
-- [Download postman `collection.json` ⬇️](https://www.udrop.com/7BW3)
+[**`/test/postman.json`**](https://github.com/franskbarek/parking-cost-counting/blob/main/test/postman.json)
+[**`Download postman.json`** ⬇️](https://www.udrop.com/7BW3)
 
-## 🛠️ Unit Testing
+## 🛠️ Jest Unit Testing
 
-#### Melakukan testing skenario fungsi pada aplikasi
+#### Tool ini memiliki tugas dan manfaat sebagai coverage atau validator untuk memastikan skenario seluruh fungsi pada aplikasi berjalan dengan semestinya
 
 - Untuk menjalankannya, anda dapat mengetikan perintah **`npm run test`** atau jika menggunkan yarn ketikan **`yarn test`** di terminal pada posisi direktori root aplikasi tersebut
 - Berikut `capture gambar` hasil testing :
 
 ![Capture get all data](/utils/assets/images/parking-area-test.png)
 
-###### Berikut tautan link tes pada dir :
+###### Tautan link lokasi direktori `parking-area.test.js`:
 
-- [Lokasi direktori `/test`](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
+[**`/test/parking-area.test.js`**](https://github.com/franskbarek/parking-cost-counting/tree/main/test/parkingArea.test.js)
