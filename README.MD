@@ -40,7 +40,7 @@ Dear codereviewer.
 
 - Get all data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api/_
 - Insert data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api/adding_
-- Filter data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api?[params]_ `contoh: idVehicle=1`
+- Filter data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api?[params]_ `contoh: idVehicle=1`
 - Berikut contoh format dari hasil `capture gambar` untuk melakukan `Get all data`, `Insert data` dan `Filter data`:
 
 ![Capture get all data.](</utils/assets/images/get%20all%20data(postman).png>)
