@@ -28,8 +28,12 @@ Dear codereviewer.
 - Get all data dengan cara menginputkan url _http://localhost:5000/web/_
 - Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
 - Berikut contoh dari hasil `capture gambar` untuk melakukan `Get all data` & `Insert data` :
-  ![Get all data](/utils/assets/images/get%20all%20data.png)
-  ![Insert data](/utils/assets/images/insert%20data.png)
+
+Capture get all data :
+![Get all data](/utils/assets/images/get%20all%20data.png)
+
+Capture Insert data :
+![Insert data](/utils/assets/images/insert%20data.png)
 
 ###### 2. Dengan menggunakan Postman tool :
 
