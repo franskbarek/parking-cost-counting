@@ -30,26 +30,27 @@ Dear codereviewer.
 
 ###### 2. Dengan Postman tool :
 
-- Get all data menggunakan method **GET localhost:5000/api/**
+- Get all data menggunakan method **`GET` localhost:5000/api/**
 - Insert data menggunakan method **`POST` localhost:5000/api/adding**
-- Berikut contoh implement hal tersebut :
+- Berikut contoh format untuk implement hal tersebut :
 
 ```
-  > {
-  > "idVehicle": number(choose one, 1 or 2),
-  > "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z",
-  > "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"
-  > }
-  > `Ada dua tipe kendaraan:  vihacle type 1 to mobil dan 2 untuk motor.`
+   {
+   "idVehicle": number(choose one, 1 or 2),
+    "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z",
+   "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"
+   }
+
+   *Ada dua tipe kendaraan:  vihacle type 1 to mobil dan 2 untuk motor.*
 ```
 
 - You can searching data with filter method by entering the query below :
 
-  > Pencarian berdasarkan jenis kendaraan : **idVehicle** (contoh -> 1)
-  > Pencarian berdasarkan biaya minimum : **getOutCost** (contoh -> 5000)
-  > Pencarian berdasarkan biaya maksimum : **getInCost** (contoh -> 80000)
-  > Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime**
-  > Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime**
+  > - Pencarian berdasarkan jenis kendaraan : **idVehicle** (contoh -> 1)
+  > - Pencarian berdasarkan biaya minimum : **getOutCost** (contoh -> 5000)
+  > - Pencarian berdasarkan biaya maksimum : **getInCost** (contoh -> 80000)
+  > - Pencarian berdasarkan waktu minimum : **startGetInTime : time getInTime / maximum getOutTime**
+  > - Pencarian berdasarkan waktu keluar maksimum : **endGetOutTime : time maximum / minimum getOutTime**
 
 ### 🛠️ Unit testing terdapat pada path folder, berikut tautan link :
 
