@@ -18,25 +18,27 @@ Dear codereviewer.
 
 #### Inisialisasi seluruh `node module` pakages sebelum menjalankan aplikasi
 
-- Pertama-tama ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** pada terminal pada posisi direktori aplikasi
-- Kemudian jalankan aplikasi dengan mengetikan perintah **`npm run dev`** atau **`yarn dev`**
+- Pertama-tama yang harus dilakukan ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** di terminal pada posisi direktori root aplikasi tersebut
+- Langkah selanjutnya jalankan aplikasi dengan mengetikan perintah **`npm run dev`** atau **`yarn dev`**
 
-#### Ada 2 opsi untuk menjalankan dan menampilkan aplikasi
+#### Ada 2 opsi untuk mengoperasikan dan menampilkan data pada aplikasi
 
-###### 1. Dengan user interface atau browser :
+###### 1. Dengan menggunakan Browser :
 
 - Get all data dengan cara menginputkan url _http://localhost:5000/web/_
 - Insert data dengan cara menginputkan url _http://localhost:5000/web/form_
+- Berikut contoh format untuk melakukan `Get all data` & `Insert data` :
+  **Masukan gambar kesini**
 
-###### 2. Dengan Postman tool :
+###### 2. Dengan menggunakan Postman tool :
 
-- Get all data menggunakan method **`GET`** _http://localhost:5000/api/_
-- Insert data menggunakan method **`POST`** _http://localhost:5000/api/adding_
-- Berikut contoh format untuk implement hal tersebut :
+- Get all data menggunakan method **`GET`** dengan menginputkan url _http://localhost:5000/api/_
+- Insert data menggunakan method **`POST`** dengan menginputkan url _http://localhost:5000/api/adding_
+- Berikut contoh format untuk melakukan `Insert data` :
 
 ```
    {
-   "idVehicle": number(choose one, 1 or 2),
+   "idVehicle": number(pilih salah satu, 1 atau 2),
     "getInTime": "YYYY-MM-DDTHH:mm:ss.000Z",
    "getOutTime": "YYYY-MM-DDTHH:mm:ss.000Z"
    }
