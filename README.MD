@@ -33,7 +33,7 @@ Dear codereviewer.
 
 ![Capture get all data.](/utils/assets/images/insert%20data.png)
 
-(\_\_\_)
+---
 
 ###### 2. Dengan menggunakan Postman tool :
 
