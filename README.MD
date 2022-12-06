@@ -20,6 +20,7 @@ Dear codereviewer.
 
 - Pertama-tama ketikan perintah **`npm install`** atau jika menggunkan yarn ketikan **`yarn`** di terminal pada posisi direktori root aplikasi tersebut
 - Langkah selanjutnya jalankan aplikasi dengan mengetikan perintah **`npm run dev`** atau **`yarn dev`**
+- Pada tahap ini anda sudah dapat langsung mengakses dan memanipulasi data melalui aplikasi tanpa harus melakukan query database secara manual, asalkan memiliki akses internet, untuk terintegrasi dengan `elephentsql(cloud db)`
 
 #### Untuk mengoperasikan dan menampilkan data pada aplikasi ada banyak cara sebenarnya, namun saya akan menyarankan 2 opsi saja
 
