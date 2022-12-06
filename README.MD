@@ -48,7 +48,7 @@ Dear codereviewer.
 
 ![Capture filter data.](</utils/assets/images/filter%20data(postman).png>)
 
----
+_Salin format kode dibawah ini jika dibutuhkan :_
 
 ```
    {
@@ -59,6 +59,8 @@ Dear codereviewer.
 ```
 
 > _Ada dua tipe kendaraan: vihacle type 1 to mobil dan 2 untuk motor._
+
+---
 
 - Anda dapat melakukan pencarian dengan fitur filter pada aplikasi, dengan memasukan _keyword_ berikut :
 
